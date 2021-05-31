@@ -16,3 +16,21 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+
+.container {
+    position: relative;
+    width: 30vw;
+    height: 80vh;
+}
+
+.img-container-eiffel-tower-before, 
+.img-container-eiffel-tower-after {
+    position: absolute;
+    width: 30vw;
+    height: 80vh;
+}
+
+.img-container-eiffel-tower-before {
+    width: 15vw;
+    overflow: hidden;
+}
