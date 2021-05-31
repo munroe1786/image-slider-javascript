@@ -7,6 +7,11 @@ const imageSlider = (event) => {
     let xPos = event.layerX;
     before.style.width = xPos + "px";
     slider.style.left = xPos + "px";
+
+    if(xPos < 30) {
+        before.style.width = 0;
+        slider.style.left = 0;
+    }
 }
 
 container.addEventListener('mousemove', imageSlider);
