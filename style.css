@@ -34,3 +34,13 @@ body{
     width: 15vw;
     overflow: hidden;
 }
+
+.slider {
+    width: 0.15rem;
+    background-color: black;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
